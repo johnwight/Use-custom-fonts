@@ -19,6 +19,7 @@ To add an Adobe Fonts Typekit pack, follow these steps:
     * .modolabs.net
     * The production domain name for your app
 3. Once you’ve saved your changes, click the **Publish** button in the bottom right corner of the detail screen. 
+![publish](https://user-images.githubusercontent.com/29133525/117223531-1bb8e300-adcb-11eb-9376-b882cc7d2427.png)
 
 4. Make note of the Kit ID when it appears.
 6. Click **Kits** near the top of the page to go to the [Kits](https://typekit.com/account/kits) page.

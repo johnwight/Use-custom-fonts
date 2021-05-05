@@ -7,7 +7,7 @@ Because different mobile platforms support different built-in fonts, custom font
 2. [Google Fonts](https://google.com/fonts) 
 3. Font files hosted from within Modo
 
-*Note: Keep in mind that each custom font adds a typical 15-40 KB that your users will need to download.
+*Note: Keep in mind that each custom font adds a typical 15-40 KB that your users will need to download.*
 
 ## How to add Adobe Typekit Fonts
 
@@ -19,6 +19,7 @@ To add an Adobe Fonts Typekit pack, follow these steps:
     * .modolabs.net
     * The production domain name for your app
 3. Once you’ve saved your changes, click the **Publish** button in the bottom right corner of the detail screen. 
+
 ![publish](https://user-images.githubusercontent.com/29133525/117223531-1bb8e300-adcb-11eb-9376-b882cc7d2427.png)
 
 4. Make note of the Kit ID when it appears.
@@ -73,10 +74,10 @@ To upload a custom font to your Modo theme, follow these steps:
 8. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the the CSS font name and CSS font stack you entered, and make sure you uploaded a valid WOFF file.
 9. Click the **Save** button at the top of the font editing screen to save your changes and return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly defined custom font. See the “How to apply a custom font” section below.
 
-*Note: It is the customer’s responsibility to confirm and ensure that the font(s) being used are appropriately licensed for use in websites and web applications. Modo Labs assumes no responsibility or legal liability for improper or unlicensed use of fonts or other files provided or uploaded by the customer.
+*Note: It is the customer’s responsibility to confirm and ensure that the font(s) being used are appropriately licensed for use in websites and web applications. Modo Labs assumes no responsibility or legal liability for improper or unlicensed use of fonts or other files provided or uploaded by the customer.*
 
 ## How to apply a custom font
 
 Once you’ve added a custom font to a theme, your theme editor will show the new font option in your drop down selections. You can use that font anywhere that a font family can be specified in the **Colors and Fonts** editing screen for that theme. See the **Colors and Fonts** reference section for more details on where you can specify fonts in the theme.
 
-*Note: You can also use custom fonts when creating or editing Publisher screens. In these screens, wherever you see a pull-down select list for specifying a font family, select “Custom”. In the “Font stack” text field that appears, type or paste in the exact CSS font stack defined for that custom font – e.g., Open Sans, sans-serif.
+*Note: You can also use custom fonts when creating or editing Publisher screens. In these screens, wherever you see a pull-down select list for specifying a font family, select “Custom”. In the “Font stack” text field that appears, type or paste in the exact CSS font stack defined for that custom font – e.g., Open Sans, sans-serif.*

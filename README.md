@@ -18,18 +18,20 @@ To add an Adobe Fonts Typekit pack, follow these steps:
     * .modolabs.com
     * .modolabs.net
     * The production domain name for your app
-3. Once you’ve saved your changes, click the **Publish** button in the bottom right corner of the detail screen. Make note of the Kit ID when it appears.
-4. Click **Kits** near the top of the page to go to the [Kits](https://typekit.com/account/kits) page.
-5. Find the kit you've created. The Kit ID is shown next to the kit name. It is usually a 7- or 8-character alphanumeric string. Make note of the CSS font stack. 
-6. In the Adobe TypeKit Editor window, click the link **Using fonts in CSS**. This link is in the **Selectors** section near the top-left corner of the window.
-7. The pop-up that appears shows the exact value that you’ll need to incude in your CSS rules. Make sure it includes **serif** or **sans-serif** as a fallback at the end. For example, ``source-sans-pro, sans-serif``as shown below. Carefully copy this value. You will need it for a subsequent step.
-8. On Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
-9. On the **Custom Fonts screen, click the **New Custom Font** button in the top right corner of the screen.
-10. Enter a unique name and ID for the new font.
-11. Select **Adobe Typekit** as the source, and then click the **Add Custom Fon** button.
-12. On the font editing screen, enter the Kit ID and CSS font stack from the previous steps.
-13. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and will be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the Kit ID and CSS font stack against the values shown in Typekit.
-13. Click the **Save** button at the top of the font editing screen to save your changes and return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly-defined custom font. For more information, see **How to apply a custom font** below.
+3. Once you’ve saved your changes, click the **Publish** button in the bottom right corner of the detail screen. 
+
+4. Make note of the Kit ID when it appears.
+6. Click **Kits** near the top of the page to go to the [Kits](https://typekit.com/account/kits) page.
+7. Find the kit you've created. The Kit ID is shown next to the kit name. It is usually a 7- or 8-character alphanumeric string. Make note of the CSS font stack. 
+8. In the Adobe TypeKit Editor window, click the link **Using fonts in CSS**. This link is in the **Selectors** section near the top-left corner of the window.
+9. The pop-up that appears shows the exact value that you’ll need to incude in your CSS rules. Make sure it includes **serif** or **sans-serif** as a fallback at the end. For example, ``source-sans-pro, sans-serif``as shown below. Carefully copy this value. You will need it for a subsequent step.
+10. On Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
+11. On the **Custom Fonts screen, click the **New Custom Font** button in the top right corner of the screen.
+12. Enter a unique name and ID for the new font.
+13. Select **Adobe Typekit** as the source, and then click the **Add Custom Fon** button.
+14. On the font editing screen, enter the Kit ID and CSS font stack from the previous steps.
+15. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and will be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the Kit ID and CSS font stack against the values shown in Typekit.
+16. Click the **Save** button at the top of the font editing screen to save your changes and return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly-defined custom font. For more information, see **How to apply a custom font** below.
 
 ## How to add a Google Font
 

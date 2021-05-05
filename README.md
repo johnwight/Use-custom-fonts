@@ -37,29 +37,24 @@ To add a Google Font, follow these steps:
 
 1. Go to Google Fonts (www.google.com/fonts) and select a font collection. It is easiest to have one font family (including all the weight and style variants you plan to use) in a single collection. Use a separate kit for each font collection.
 2. Once you have a single-family collection, click the **Use** button at the bottom of the Google Fonts screen. 
-
-
 3. Select the styles you plan to use. For headlines, you will need the regular and italic styles of the weight you plan to use for headlines. For body text, you will need the regular and italic styles of the normal, semi-bold (if available), and bold weights.
-4. Determine the “family” parameter. In the Google Fonts **Use** screen, follow the **Add this code to your website** step. 
+4. Determine the “family” parameter. To do this, in the Google Fonts **Use** screen, follow the **Add this code to your website** step, as shown below. 
 
   The "Standard" version of the code will share the following format: 
-  ```
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,
-  600italic,700,700italic' rel='stylesheet' type='text/css'>
-```
+   ```
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,
+     600italic,700,700italic' rel='stylesheet' type='text/css'>
+   ```
 The family parameter should be everything after `family=` in the `href`. In the example above,  the `family` parameter is `Open+Sans:400,400italic,600,600italic,700,700italic`.
-5. On the Google Fonts **Use** screen, under **Integrate the fonts into your CSS**, the exact CSS font stack for this font is shown.  Make note of the CSS font stack. 
 
-For example, the CSS stack for the Google Font Open Sans is 'Open Sans', sans-serif. 
-6. Be sure that it includes `sans-serif or serif as a fallback at the end. You’ll need this exact value in a subsequent step.
-7. In Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
-8. You will be taken to the “Custom Fonts” screen.
-9. On the Custom Fonts screen, click the **New Custom Font** button in the top-right corner.
-10. Enter a unique name and ID for the new font. 
-11. Select **Google Fonts** as the source, then click the **Add Custom Font** button.
-12. In the font editing screen, enter the Family and CSS font stack from the previous steps.
-13. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the Kit ID and CSS font stack against the values shown in the Google Fonts **Use** screen.
-14. Click the **Save** button at the top of the font editing screen to save your changes and to return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly defined custom font. For more information, ee the **How to apply a custom font** section below.
+5. On the Google Fonts Use screen, under **Integrate the fonts into your CSS**, the exact CSS font stack for this font is shown. Make note of the CSS font stack. Be sure that it includes `sans-serif or serif as a fallback at the end. You’ll need this exact value in a subsequent step.
+6. In Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
+7. On the Custom Fonts screen, click the **New Custom Font** button in the top-right corner.
+8. Enter a unique name and ID for the new font. 
+9. Select **Google Fonts** as the source, then click the **Add Custom Font** button.
+10. In the font editing screen, enter the Family and CSS font stack from the previous steps.
+11. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the Kit ID and CSS font stack against the values shown in the Google Fonts **Use** screen.
+12. Click the **Save** button at the top of the font editing screen to save your changes and to return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly defined custom font. For more information, ee the **How to apply a custom font** section below.
 
 ## How to add a custom uploaded font
 
@@ -79,6 +74,6 @@ To upload a custom font to your Modo theme, follow these steps:
 
 ## How to apply a custom font
 
-Once you’ve added a custom font (via Adobe Typekit, Google Fonts, or a uploaded font files) to a theme, you can use that font anywhere that a font family can be specified in the **Colors and Fonts** editing screen for that theme. See the **Colors and Fonts** reference section for more details on where you can specify fonts in the theme. In the Theme Editor, the new font option will appear in your drop down selections. 
+Once you’ve added a custom font to a theme, your theme editor will show the new font option in your drop down selections. You can use that font anywhere that a font family can be specified in the **Colors and Fonts** editing screen for that theme. See the **Colors and Fonts** reference section for more details on where you can specify fonts in the theme.
 
 *Note: You can also use custom fonts when creating or editing Publisher screens. In these screens, wherever you see a pull-down select list for specifying a font family, select “Custom”. In the “Font stack” text field that appears, type or paste in the exact CSS font stack defined for that custom font – e.g., Open Sans, sans-serif.

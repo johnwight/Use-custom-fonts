@@ -3,8 +3,8 @@ Modo supports custom fonts for textual elements in your app.
 
 Because different mobile platforms support different built-in fonts, custom fonts are the only way to ensure that the same fonts are used for text elements across all your user devices. Custom fonts can also harmonize your mobile app theme with your brand identity and lend a unique visual character to your app experience. Custom fonts can be applied to all textual elements in Modo-powered web apps, with the exception of navigation bars and menus in native iOS and Android apps. A single theme can contain multiple custom font combinations from the following:
 
-1. ![Adobe Typekit Web Fonts] (https://fonts.adobe.com/typekit) 
-2. ![Google Fonts] (https://google.com/fonts) 
+1. [Adobe Typekit Web Fonts](https://fonts.adobe.com) 
+2. [Google Fonts](https://google.com/fonts) 
 3. Font files hosted from within Modo
 
 *Note: Keep in mind that each custom font adds a typical 15-40 KB that your users will need to download.

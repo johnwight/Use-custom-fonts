@@ -32,9 +32,9 @@ Make sure to include **serif** or **sans-serif** as a fallback, as shown in the 
 ![sans](https://user-images.githubusercontent.com/29133525/117223781-aa2d6480-adcb-11eb-8f7d-dabe9bc328c7.png)
 
 10. On Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
-11. On the **Custom Fonts screen, click the **New Custom Font** button in the top right corner of the screen.
+11. On the Custom Fonts screen, click the **New Custom Font** button in the top right corner of the screen.
 12. Enter a unique name and ID for the new font.
-13. Select **Adobe Typekit** as the source, and then click the **Add Custom Fon** button.
+13. Select **Adobe Typekit** as the source, and then click the **Add Custom Font** button.
 14. On the font editing screen, enter the Kit ID and CSS font stack from the previous steps.
 15. Click the **Save & Preview** button below the sample text block. After a few seconds, the sample will refresh and will be displayed using the newly-defined custom font. If the sample preview does not look correct, double-check the Kit ID and CSS font stack against the values shown in Typekit.
 16. Click the **Save** button at the top of the font editing screen to save your changes and return to the theme detail screen. From there, you can go to other aspects of the theme to apply your newly-defined custom font. For more information, see **How to apply a custom font** below.

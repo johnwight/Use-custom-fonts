@@ -28,6 +28,7 @@ To add an Adobe Fonts Typekit pack, follow these steps:
 8. In the Adobe TypeKit Editor window, click the link **Using fonts in CSS**. This link is in the **Selectors** section near the top-left corner of the window.
 9. The pop-up that appears shows the exact value that you’ll need to incude in your CSS rules. Make sure it includes **serif** or **sans-serif** as a fallback at the end. For example, ``source-sans-pro, sans-serif``as shown below. Carefully copy this value. You will need it for a subsequent step.
 
+![sans](https://user-images.githubusercontent.com/29133525/117223781-aa2d6480-adcb-11eb-8f7d-dabe9bc328c7.png)
 
 10. On Modo Theme Builder’s theme detail screen, click **Custom fonts**. 
 11. On the **Custom Fonts screen, click the **New Custom Font** button in the top right corner of the screen.

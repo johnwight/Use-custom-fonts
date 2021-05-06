@@ -26,7 +26,8 @@ To add an Adobe Fonts Typekit pack, follow these steps:
 6. Click **Kits** near the top of the page to go to the [Kits](https://typekit.com/account/kits) page.
 7. Find the kit you've created. The Kit ID is shown next to the kit name. It is usually a 7- or 8-character alphanumeric string. Make note of the CSS font stack. 
 8. In the Adobe TypeKit Editor window, click the link **Using fonts in CSS**. This link is in the **Selectors** section near the top-left corner of the window.
-9. The pop-up that appears shows the exact value that you’ll need to incude in your CSS rules. Make sure it includes **serif** or **sans-serif** as a fallback at the end. For example, ``source-sans-pro, sans-serif``as shown below. Carefully copy this value. You will need it for a subsequent step.
+9. The pop-up that appears shows the exact value that you’ll need to incude in your CSS rules. Carefully copy this value. You will need it for a subsequent step.
+Make sure to include **serif** or **sans-serif** as a fallback, as shown in the following example:
 
 ![sans](https://user-images.githubusercontent.com/29133525/117223781-aa2d6480-adcb-11eb-8f7d-dabe9bc328c7.png)
 
@@ -45,7 +46,8 @@ To add a Google Font, follow these steps:
 1. Go to Google Fonts (www.google.com/fonts) and select a font collection. It is easiest to have one font family (including all the weight and style variants you plan to use) in a single collection. Use a separate kit for each font collection.
 2. Once you have a single-family collection, click the **Use** button at the bottom of the Google Fonts screen. 
 3. Select the styles you plan to use. For headlines, you will need the regular and italic styles of the weight you plan to use for headlines. For body text, you will need the regular and italic styles of the normal, semi-bold (if available), and bold weights.
-4. Determine the “family” parameter. To do this, in the Google Fonts **Use** screen, follow the **Add this code to your website** step, as shown below. 
+4. Determine the `family` parameter. To do this, in the Google Fonts **Use** screen, follow the **Add this code to your website** step, as shown below. 
+
 
   The "Standard" version of the code will share the following format: 
    ```

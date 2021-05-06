@@ -48,6 +48,7 @@ To add a Google Font, follow these steps:
 3. Select the styles you plan to use. For headlines, you will need the regular and italic styles of the weight you plan to use for headlines. For body text, you will need the regular and italic styles of the normal, semi-bold (if available), and bold weights.
 4. Determine the `family` parameter. To do this, in the Google Fonts **Use** screen, follow the **Add this code to your website** step, as shown below. 
 
+![blob1443112896111](https://user-images.githubusercontent.com/29133525/117224174-81599f00-adcc-11eb-9e17-ffd66a088c38.png)
 
   The "Standard" version of the code will share the following format: 
    ```
